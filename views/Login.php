@@ -14,7 +14,7 @@
         <label for="password">Contraseña:</label>
         <input type="password" id="password" name="password" required><br>
 
-        <button type="submit">Iniciar sesión</button>
+        <button type="submit" name="login">Iniciar sesión</button>
     </form>
 </body>
 </html>
