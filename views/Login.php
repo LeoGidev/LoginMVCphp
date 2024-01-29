@@ -21,7 +21,7 @@
   
 <body>
     <h2>Login</h2>
-    <form action="../controllers/UserController.php" method="post">
+    <form class="form-group" action="../controllers/UserController.php" method="post">
         <label for="username">Usuario:</label>
         <input type="text" id="username" name="username" required><br>
 
