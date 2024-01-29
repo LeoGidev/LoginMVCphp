@@ -21,10 +21,11 @@
   
 <body>
 <div class="container">
-<div class="ju">
+<div class="jumbotron">
 <h1>Bienvenido</h1>
-</div>
+</div></div>
 <div class="container">
+<div class="row">
     <h2>Login</h2>
     <form class="form-group" action="../controllers/UserController.php" method="post">
         <label for="username">Usuario:</label>
@@ -35,6 +36,7 @@
 
         <button class="btn btn-primary" type="submit" name="login">Iniciar sesión</button>
     </form>
+</div>
 </div>
 </body>
 </html>
