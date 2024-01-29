@@ -25,7 +25,7 @@
 <h1>Bienvenido</h1>
 </div></div>
 <div class="container">
-<div class="row">
+<div class="row justify-content-center">
 <div class="col-3">
     <h2>Login</h2>
     <form class="form-group" action="../controllers/UserController.php" method="post">
