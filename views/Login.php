@@ -21,6 +21,10 @@
   
 <body>
 <div class="container">
+<div class="ju">
+<h1>Bienvenido</h1>
+</div>
+<div class="container">
     <h2>Login</h2>
     <form class="form-group" action="../controllers/UserController.php" method="post">
         <label for="username">Usuario:</label>
