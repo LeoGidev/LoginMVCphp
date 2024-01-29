@@ -26,7 +26,7 @@
 </div></div>
 <div class="container">
 <div class="row justify-content-center">
-<div class="col-3">
+<div class="col-3" style="box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);">
     <h2>Login</h2>
     <form class="form-group" action="../controllers/UserController.php" method="post">
         <label for="username">Usuario:</label>
