@@ -6,6 +6,8 @@ class UserController {
         if (isset($_POST['login'])) {
             $username = $_POST['username'];
             $password = $_POST['password'];
+            //limpiaremos las varibles por seguirdad
+            
 
             $userModel = new UserModel();
             $isValidUser = $userModel->validateUser($username, $password);
