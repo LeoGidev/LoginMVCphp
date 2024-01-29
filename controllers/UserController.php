@@ -7,7 +7,19 @@ class UserController {
             $username = $_POST['username'];
             $password = $_POST['password'];
             //limpiaremos las varibles por seguirdad
-            
+            $username=strip_tags($username);
+			$username=htmlspecialchars($username);
+			$username=mysqli_real_escape_string($conn, $username);
+			$username = filter_var($username, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+			$username=filter_var($username, FILTER_SANITIZE_STRING);
+
+            $password=strip_tags($password);
+			$password=htmlspecialchars($password);
+			$password=mysqli_real_escape_string($conn, $password);
+			$password = filter_var($password, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+			$password=filter_var($password, FILTER_SANITIZE_STRING);
+			
+			
 
             $userModel = new UserModel();
             $isValidUser = $userModel->validateUser($username, $password);
