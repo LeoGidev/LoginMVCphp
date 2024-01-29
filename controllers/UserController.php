@@ -6,7 +6,7 @@ class UserController {
         if (isset($_POST['login'])) {
             $username = $_POST['username'];
             $password = $_POST['password'];
-            //limpiaremos las varibles por seguirdad
+            //limpiaremos las varibles por seguridad
             $username=strip_tags($username);
 			$username=htmlspecialchars($username);
 			
