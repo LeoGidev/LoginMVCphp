@@ -23,12 +23,12 @@
     <h2>Login</h2>
     <form class="form-group" action="../controllers/UserController.php" method="post">
         <label for="username">Usuario:</label>
-        <input type="text" id="username" name="username" required><br>
+        <input class="form-control" type="text" id="username" name="username" required><br>
 
         <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required><br>
+        <input class="form-control" type="password" id="password" name="password" required><br>
 
-        <button type="submit" name="login">Iniciar sesión</button>
+        <button class="btn btn-primary" type="submit" name="login">Iniciar sesión</button>
     </form>
 </body>
 </html>
